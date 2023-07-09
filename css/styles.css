@@ -3,6 +3,25 @@ body {
     color: #434455;
     background-color: var(--white-color);
     }
+
+    p, h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    ul, ol {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
 :root {
     --accent-color: #4D5AE5;
     --white-color: #FFFFFF;
@@ -15,6 +34,12 @@ body {
     color:#404bbf;
 }
 
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
 .header-logo {
     color: var(--accent-color);
     text-transform: uppercase;
@@ -24,11 +49,27 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 .header-logo-accent {
     color: #2E2F42;
 }
-
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 332px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
 .header-list-item {
     font-size: 16px;
     font-weight: 500;
@@ -44,6 +85,10 @@ body {
     letter-spacing: 0.02em;
     font-style: normal;
 }
+.header-contacts-list {
+    display: flex;
+    gap: 40px;
+}
 .list {
     list-style: none;
 }
@@ -51,6 +96,7 @@ body {
 .first-section {
     background-color: #2E2F42;
     text-align: center;
+    padding: 188px 0;
 }
 .first-section-title{
     font-size: 56px;
@@ -68,19 +114,26 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    margin-top: 48px;
 }
 
 .first-section-btn:hover, .first-section-btn:focus {
     background-color: #404BBF;
 }
 
-
+.company-benefits-list {
+    display: flex;
+    gap: 24px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 .company-benefits-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .company-benefits-text {
@@ -101,10 +154,18 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 72px;
+}
+.activity-image-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
 }
 .company-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
+
 .worker {
     background-color: #FFFFFF;
 }
@@ -116,6 +177,11 @@ body {
     text-transform: capitalize;
     color:#2e2f42;
     text-align: center;
+    margin-bottom: 72px;
+}
+.worker-list-image {
+    display: flex;
+    gap: 24px;
 }
 
 .company-team-title {
@@ -124,6 +190,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 .company-team-text {
     font-size: 16px;
@@ -132,8 +200,13 @@ body {
     letter-spacing: 0.02em;
     color:#434455;
 }
+.company-team-container {
+    background-color: var(--white-color);
+    text-align: center;
+}
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -154,6 +227,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#F4F4FD;
+    margin-top: 16px;
 }
 
 .btn {
@@ -165,12 +239,27 @@ body {
     color: var(--accent-color);
     cursor: pointer;
     background-color: #F4F4FD;
+    border-radius: 4px;
 }
+.btn-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 96px;
+    margin-bottom: 72px;
+} 
 .btn:hover, .btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
 
+.portfolio-list-img {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 120px;
+}
 .portfolio-section-title {
     font-size: 20px;
     font-weight: 500;
@@ -186,3 +275,20 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+img {
+    display: block;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }

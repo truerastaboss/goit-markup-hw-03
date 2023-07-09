@@ -11,31 +11,34 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header-nav">
-        <a href="./index.html" class="header-logo link">
-            Web<span class="header-logo-accent">Studio</span>
-        </a>
-        <ul class="list">
-            <li><a href="./index.html" class="header-list-item link">Studio</a></li>
-            <li><a href="./portfolio.html" class="header-list-item link">Portfolio</a></li>
-            <li><a href="" class="header-list-item link">Contacts</a></li>
-        </ul>
-    </nav>
-        <address class="header-contacts">
-            <ul class="list">
-           <li> 
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-        </li>
-        <li> 
-            <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a> 
+        <div class="container header-container">
+            <nav class="header-nav">
+            <a href="./index.html" class="header-logo link">
+                Web<span class="header-logo-accent">Studio</span>
+            </a>
+            <ul class="header-menu list">
+                <li><a href="./index.html" class="header-list-item link">Studio</a></li>
+                <li><a href="./portfolio.html" class="header-list-item link">Portfolio</a></li>
+                <li><a href="" class="header-list-item link">Contacts</a></li>
+            </ul>
+        </nav>
+            <address class="header-contacts">
+                <ul class="header-contacts-list list">
+               <li> 
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
             </li>
-    </ul>
-    </address>
-</header>
+            <li> 
+                <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a> 
+                </li>
+        </ul>
+        </address>
+    </div>
+    </header>
     <main>
         <section class="portfolio-section">
-            <h1>title</h1>
-            <ul class="list">
+            <div class="container">
+            <h1 class="visually-hidden">title</h1>
+            <ul class="list btn-list">
             <li>
                 <button type="button" class="btn">All</button>
             </li>
@@ -52,7 +55,7 @@
                 <button type="button" class="btn">Marketing</button>
             </li>
         </ul>
-        <ul class="list">
+        <ul class="list portfolio-list-img">
 
             <li>
              <a href="" class="link">
@@ -153,13 +156,16 @@
         </a>
         </li>
         </ul>
+    </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container">
         <a href="./index.html" class="footer-logo link">
             Web<span class="footer-logo-accent">Studio</span>
         </a>
-        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-</footer>
+        <p class="footer-text">Increase the flow of customers and<br> sales for your business with digital<br> marketing & growth solutions.</p>
+    </div>
+    </footer>
 </body>
 </html>
