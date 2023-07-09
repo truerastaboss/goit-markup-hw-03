@@ -123,6 +123,10 @@ body {
 .first-section-btn:hover, .first-section-btn:focus {
     background-color: #404BBF;
 }
+.company-benefits {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
 .company-benefits-list {
     display: flex;
     gap: 24px;
@@ -149,6 +153,7 @@ body {
 }
 .company-activity {
     text-transform: capitalize;
+    padding-bottom: 120px;
 }
 .company-activity-title {
     font-size: 36px;
