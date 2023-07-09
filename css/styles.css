@@ -3,18 +3,15 @@ body {
     color: #434455;
     background-color: var(--white-color);
     }
-
     p, h1, h2, h3, h4, h5, h6 {
         margin-top: 0;
         margin-bottom: 0;
     }
-
     ul, ol {
         margin-top: 0;
         margin-bottom: 0;
         padding-left: 0;
     }
-
     .container {
         width: 100%;
         max-width: 1158px;
@@ -38,8 +35,6 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
-
 .header-logo {
     color: var(--accent-color);
     text-transform: uppercase;
@@ -77,7 +72,6 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
 .header-contacts {
     font-size: 16px;
     font-weight: 400;
@@ -92,7 +86,6 @@ body {
 .list {
     list-style: none;
 }
-
 .first-section {
     background-color: #2E2F42;
     text-align: center;
@@ -116,11 +109,9 @@ body {
     cursor: pointer;
     margin-top: 48px;
 }
-
 .first-section-btn:hover, .first-section-btn:focus {
     background-color: #404BBF;
 }
-
 .company-benefits-list {
     display: flex;
     gap: 24px;
@@ -142,11 +133,9 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 .company-activity {
     text-transform: capitalize;
 }
-
 .company-activity-title {
     font-size: 36px;
     font-weight: 700;
@@ -183,7 +172,6 @@ body {
     display: flex;
     gap: 24px;
 }
-
 .company-team-title {
     font-size: 20px;
     font-weight: 500;
@@ -220,7 +208,6 @@ body {
 .footer-logo-accent{
     color: #F4F4FD;
 }
-
 .footer-text {
     font-size: 16px;
     font-weight: 400;
@@ -229,7 +216,6 @@ body {
     color:#F4F4FD;
     margin-top: 16px;
 }
-
 .btn {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -252,7 +238,6 @@ body {
     color: #FFFFFF;
     background-color: #404BBF;
 }
-
 .portfolio-list-img {
     display:flex;
     flex-direction: row;
@@ -267,7 +252,6 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-
 .portfolio-section-text {
     font-size: 16px;
     font-weight: 400;
@@ -275,11 +259,9 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 img {
     display: block;
 }
-
 .visually-hidden {
     position: absolute;
     width: 1px;
