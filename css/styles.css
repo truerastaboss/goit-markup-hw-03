@@ -4,13 +4,10 @@ body {
     background-color: var(--white-color);
     }
     p, h1, h2, h3, h4, h5, h6 {
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: 0;
     }
-    ul, ol {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-left: 0;
+    ul {
+        padding: 0;
     }
     .container {
         width: 100%;
@@ -43,8 +40,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
-    display: flex;
-    align-items: center;
     margin-right: 76px; 
 }
 .header-logo-accent {
@@ -63,6 +58,7 @@ body {
 .header-menu {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 .header-list-item {
     font-size: 16px;
@@ -70,6 +66,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-contacts {
     font-size: 16px;
@@ -85,6 +83,7 @@ body {
 }
 .list {
     list-style: none;
+    margin: 0;
 }
 .first-section {
     background-color: #2E2F42;
