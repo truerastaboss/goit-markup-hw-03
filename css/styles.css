@@ -58,12 +58,12 @@ body {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .header-menu {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-list-item {
     font-size: 16px;
