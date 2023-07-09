@@ -27,13 +27,11 @@ body {
     text-decoration: none;
     color:#434455;
 }
-.link:hover , .link:focus {
+.link:hover, .link:focus {
     color:#404bbf;
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
@@ -60,6 +58,8 @@ body {
     display: flex;
     align-items: center;
     flex-grow: 1;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-menu {
     display: flex;
@@ -71,8 +71,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 24px; 
-    padding-bottom: 24px;
 }
 .header-contacts {
     font-size: 16px;
@@ -102,7 +100,7 @@ body {
     max-width: 496px; 
     display: block;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 .first-section-btn {
     color: var(--white-color);
@@ -130,8 +128,6 @@ body {
 .company-benefits-list {
     display: flex;
     gap: 24px;
-    margin-top: 120px;
-    margin-bottom: 120px;
 }
 .benefits-item {
     width: calc((100% - 72px)/4);
@@ -167,7 +163,6 @@ body {
 .activity-image-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 120px;
 }
 .activity-item {
     width: calc((100% - 48px)/3);
@@ -202,7 +197,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 .company-team-text {
@@ -244,7 +238,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#F4F4FD;
-    margin-top: 16px;
+    max-width: 264px;
 }
 .portfolio-section {
     padding-top: 96px;
@@ -270,7 +264,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 96px;
     margin-bottom: 72px;
 } 
 .btn:hover, .btn:focus {
@@ -283,7 +276,6 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 120px;
 }
 .portfolio-li {
     width: calc((100% - 48px) / 3);
