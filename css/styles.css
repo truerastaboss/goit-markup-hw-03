@@ -33,6 +33,8 @@ body {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-logo {
     color: var(--accent-color);
@@ -58,8 +60,6 @@ body {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .header-menu {
     display: flex;
